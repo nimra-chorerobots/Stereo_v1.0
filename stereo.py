@@ -120,10 +120,12 @@ def compute_depth(left_gray, right_gray):
         # P1: small disparity changes
         # P2: large disparity jumps
         # These enforce surface continuity
+    
         # ---------------------------------------
+        ## p = 8 x channels x block size²
         P1=8 * 3 * 5 * 5,
         P2=32 * 3 * 5 * 5,
-
+        
         # ---------------------------------------
         # Reject ambiguous matches
         # ---------------------------------------
@@ -284,3 +286,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
