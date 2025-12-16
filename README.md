@@ -15,20 +15,7 @@ The implementation is intentionally modular, interpretable, and suitable for rea
 
 ## 🔍 Perception Stack Overview
 
-Stereo Cameras (Left / Right)
-↓
-Classical Stereo Matching (SGBM)
-↓
-Metric Depth Estimation
-↓
-Semantic Understanding (YOLO-Tiny)
-↓
-Obstacle Proximity & Free Space
-↓
-Planning-Ready Spatial Representation
-↓
-3D World Model (Point Cloud)
-
+<img width="384" height="460" alt="image" src="https://github.com/user-attachments/assets/5081287e-9414-4768-ab4a-15cfecd33c48" />
 
 ---
 
