@@ -40,11 +40,7 @@ Planning-Ready Spatial Representation
 - Urban driving scenarios
 - Suitable for depth, disparity, and object perception
 
-Dataset structure used:
-data_scene_flow/
-├── training/
-│ ├── image_2/ # Left camera
-│ ├── image_3/ # Right camera
+<img width="310" height="140" alt="image" src="https://github.com/user-attachments/assets/932e44a9-f4d7-47a6-81a8-5e8ba252b4cf" />
 
 
 > **Note:** The training split is used for visualization and perception development.  
